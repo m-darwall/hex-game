@@ -1,0 +1,27 @@
+{
+  "title": "classic",
+  "hex-layout": [
+    [null, null, "r", null, "r", null, "r", null, null],
+    [null, "r", null, "r", null, "r", null, "r", null],
+    ["r", null, "r", null, "d", null, "r", null, "r"],
+    [null, "r", null, "r", null, "r", null, "r", null],
+    [null, null, "r", null, "r", null, "r", null, null]
+  ],
+  "number-layout": [
+    [null, null, "r", null, "r", null, "r", null, null],
+    [null, "r", null, "r", null, "r", null, "r", null],
+    ["r", null, "r", null, null, null, "r", null, "r"],
+    [null, "r", null, "r", null, "r", null, "r", null],
+    [null, null, "r", null, "r", null, "r", null, null]
+  ],
+  "port-layout": [
+    [null, null, [[5, "r"]], null, [[0, "r"]], null, null, null, null],
+    [null, [[4, "r"]], null, null, null, null, null, [[0, "r"]], null],
+    [null, null, null, null, null, null, null, null, [[1, "r"]]],
+    [null, [[4, "r"]], null, null, null, null, null, [[2, "r"]], null],
+    [null, null, [[3, "r"]], null, [[2, "r"]], null, null, null, null]
+  ],
+  "unassigned-hexes": ["wood","wood","wood","wood","brick","brick","brick","sheep","sheep","sheep","sheep","wheat","wheat","wheat","wheat","ore","ore","ore"],
+  "unassigned-numbers": [2, 3, 3, 4, 4, 5, 5, 6, 6, 8, 8, 9, 9, 10, 10, 11, 11, 12],
+  "unassigned-ports": ["wood", "brick", "sheep", "wheat", "ore", 3, 3, 3, 3]
+}
